@@ -13,7 +13,7 @@
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "vercel": "^28.1.0"
+    "vercel": "^19.1.2"
   },
   "devDependencies": {
     "eslint": "8.21.0",

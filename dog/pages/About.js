@@ -1,12 +1,11 @@
 import React from "react";
-import Image from "next/image";
 import styles from "../styles/About.module.css";
 const About = () => {
   return (
     <div className={styles.container}>
       <h1>Welcome to About</h1>
       <div className={styles.profile_pic}>
-        <Image
+        <img
           className={styles.image}
           src="/home.jpg"
           alt="profile pic"
