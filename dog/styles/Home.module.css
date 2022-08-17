@@ -1,19 +1,20 @@
 .container {
   padding: 0 2rem;
+  background-color: black;
+  color: white;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding-top: 2rem;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .footer {
-  color: blue;
   display: flex;
   flex: 1;
   padding: 2rem 0;
@@ -43,7 +44,9 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-decoration: underline;
 }
 
 .title,
@@ -52,9 +55,10 @@
 }
 
 .description {
-  margin: 4rem 0;
+  font-family: "Franklin Gothic desMedium", "Arial Narrow", Arial, sans-serif;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  max-width: 72vw;
 }
 
 .code {
@@ -127,4 +131,24 @@
   .logo img {
     filter: invert(1);
   }
+}
+.mainNav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 2;
+}
+.mainNav ul li {
+  margin: 0 1rem;
+  list-style: none;
+  font-weight: bold;
+}
+.btn {
+  cursor: pointer;
+  margin: 0.1rem 0.3rem;
+  border-radius: 1rem;
+  color: white;
+  background: black;
+  padding: 0.3rem 0.4rem;
+  font-size: 1rem;
 }
